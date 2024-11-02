@@ -16,4 +16,6 @@ int if_process_runs_in_background(char **args);
 
 void redirect_io(char **args);
 
+void pipe_processes(char **args); /// TODO: Implement this function
+
 void launch_process(char **args, int background);
